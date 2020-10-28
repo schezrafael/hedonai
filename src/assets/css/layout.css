@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --rango-fuera: rgb(220, 53, 69);
+    --rango-alerta: rgb(253, 126, 20);
+    --rango-optimo: rgb(57, 183, 115);
+
+    /*#28a745 color verde*/
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* flex horizontal
+–––––––––––––––––––––––––––––––––––––––––––––––*/
+.fhStart,
+.fhCenter,
+.fhEnd,
+.fhBetween,
+.fhAround,
+.fh-align-start,
+.fh-align-center,
+.fh-align-end {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.fhStart {
+    justify-content: flex-start;
+}
+
+.fhCenter {
+    justify-content: center;
+}
+
+.fhEnd {
+    justify-content: flex-end;
+}
+
+.fhBetween {
+    justify-content: space-between;
+}
+
+.fhAround {
+    justify-content: space-around;
+}
+
+.fh-align-start {
+    align-content: flex-start;
+}
+
+.fh-align-center {
+    align-content: center;
+}
+
+.fh-align-end {
+    align-content: flex-end;
+}
+
+/* Flex vertical
+–––––––––––––––––––––––––––––––––––––––––––––––*/
+.fvStart,
+.fvCenter,
+.fvEnd,
+.fvAround,
+.fv-aling-start,
+.fv-aling-center,
+.fv-aling-end {
+    display: flex;
+    flex-direction: column;
+}
+.fvStart {
+    justify-content: start;
+}
+
+.fvCenter {
+    justify-content: center;
+}
+
+.fvEnd {
+    justify-content: flex-end;
+}
+
+.fvAround {
+    justify-content: space-around;
+}
+
+.fv-aling-start {
+    align-items: flex-start;
+}
+
+.fv-aling-center {
+    align-items: center;
+}
+
+.fv-aling-end {
+    align-items: flex-end;
+}
+
+/* Elementos de prueba
+–––––––––––––––––––––––––––––––––––––––––––––––*/
+.box{
+    border: 1px solid blue;
+}
+
+.fondo{
+    background-color: beige;
+}
+
+
+/* Dedfinir alguno btn y otras cosas
+
+padding, margin: 2px
+definir with
+piensa Rafael
+border-radus: 5px
+–––––––––––––––––––––––––––––––––––––––––––––––*/
