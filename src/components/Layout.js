@@ -7,7 +7,7 @@ import User from "../assets/img/user.jpg";
 
 function Layout(propos) {
     return (
-        <React.Fragment className="wrapper">
+        <div className="wrapper">
             <div className="nav fvStar fv-aling-center">
                 <div className="logo">
                     <img src={Logo} alt="logo-hedonai" />
@@ -25,8 +25,8 @@ function Layout(propos) {
                     </Link>
                 </div>
             </div>
-            <div className="contenido content-wrapper container">{propos.children}</div>
-        </React.Fragment>
+            <div className="contenido content-wrapper">{propos.children}</div>
+        </div>
     );
 }
 export default Layout;
