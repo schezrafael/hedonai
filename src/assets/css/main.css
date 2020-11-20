@@ -3,11 +3,16 @@
     /*font-size: 16px;*/
     font-family: 'Monserrat', sans-serif;
 
-    --nav-width: 280px;
+    --nav-width: 250px;
 }
 
 .header{
     background-color: chartreuse;
+}
+
+.wrapper{
+    background-color: #f8f9fa;
+    height: 100vh;
 }
 
 .nav{
